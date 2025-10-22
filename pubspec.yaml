@@ -1,6 +1,6 @@
 name: clarity_web
 description: "Integration with Microsoft Clarity Analytics in Flutter Web Application."
-version: 1.0.0
+version: 1.0.0+1
 repository: https://github.com/rod-moraes/clarity_web
 homepage: https://rodmoraes.com.br
 

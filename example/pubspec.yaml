@@ -1,0 +1,24 @@
+name: clarity_web_example
+description: Exemplo de uso da biblioteca Clarity Web para integração com Microsoft Clarity Analytics
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  clarity_web:
+    path: ../
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

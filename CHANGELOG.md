@@ -1,0 +1,23 @@
+## 1.0.0
+
+- Initial release of Clarity Web library for Microsoft Clarity Analytics integration.
+- Add `initClarityWeb()` function for initializing Microsoft Clarity with project ID and capture settings.
+- Add `setIsCanvasMirrorActive()` function - **MANDATORY** for canvas capture workaround.
+- Add `setCustomUserId()` function for user identification and session tracking.
+- Add `setCustomTag()` function for custom metadata and user segmentation.
+- Add `sendCustomEvent()` function for tracking custom user actions and events.
+- Add `upgradeClarity()` function for forcing Clarity state updates.
+- Add `start()` function for optional tracking control with custom configuration.
+- Add `stop()` function for optional complete analytics shutdown.
+- Add `pause()` function for optional temporary tracking suspension.
+- Add `resume()` function for optional tracking resumption after pause.
+- Add `isLoaded` property to check if Clarity JavaScript library is loaded.
+- Add `isInitialized` property to check if Clarity service is initialized.
+- Add singleton pattern implementation with `instance` getter.
+- Implement automatic consent configuration for analytics.
+- Implement canvas capture workaround using screen prints for Flutter Web applications.
+- Add support for FPS control (targetFpsMax, targetFpsMin) for session capture.
+- Add support for image quality control (0.0-1.0) for captured content.
+- Add JavaScript Interop integration for type-safe communication with Clarity library.
+- Add automatic Clarity script loading and initialization.
+- Add comprehensive documentation and examples.

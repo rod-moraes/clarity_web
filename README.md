@@ -10,16 +10,16 @@ This package implements an **optimized workaround** to generate screen captures 
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Basic Usage](#basic-usage)
-- [Tracking Control](#tracking-control)
-- [Examples](#examples)
-- [Documentation](#documentation)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Basic Usage](#-basic-usage)
+- [Tracking Control](#-tracking-control)
+- [Examples](#-examples)
+- [Documentation](#-documentation)
+- [API Reference](#-api-reference)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## ✨ Features
 

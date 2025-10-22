@@ -1,7 +1,8 @@
 name: clarity_web
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "Integration with Microsoft Clarity Analytics in Flutter Web Application."
+version: 1.0.0
+repository: https://github.com/rod-moraes/clarity_web
+homepage: https://rodmoraes.com.br
 
 environment:
   sdk: ^3.8.1

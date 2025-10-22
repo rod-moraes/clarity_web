@@ -16,7 +16,7 @@
 /// ```dart
 /// import 'package:clarity_web/clarity_web.dart';
 ///
-/// final clarityService = ClarityWebJsInteropService.instance;
+/// final clarityService = ClarityWeb.instance;
 /// await clarityService.initClarityWeb('your-project-id');
 /// ```
 ///

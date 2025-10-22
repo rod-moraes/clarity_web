@@ -63,7 +63,7 @@ flutter pub get
 import 'package:clarity_web/clarity_web.dart';
 
 // Get service instance
-final clarityService = ClarityWebJsInteropService.instance;
+final clarityService = ClarityWeb.instance;
 
 // Initialize with Project ID
 await clarityService.initClarityWeb('your-project-id');
@@ -163,7 +163,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final clarityService = ClarityWebJsInteropService.instance;
+  final clarityService = ClarityWeb.instance;
   bool _isInitialized = false;
 
   @override
@@ -248,7 +248,7 @@ class CanvasExample extends StatefulWidget {
 }
 
 class _CanvasExampleState extends State<CanvasExample> {
-  final clarityService = ClarityWebJsInteropService.instance;
+  final clarityService = ClarityWeb.instance;
 
   @override
   void initState() {
@@ -297,7 +297,7 @@ class MyCustomPainter extends CustomPainter {
 
 ## 📚 API Reference
 
-### ClarityWebJsInteropService
+### ClarityWeb
 
 #### Properties
 

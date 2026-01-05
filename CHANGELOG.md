@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Fix import clarity_web assets when js inject
+
 ## 1.0.0
 
 - Initial release of Clarity Web library for Microsoft Clarity Analytics integration.

@@ -104,7 +104,7 @@ class ClarityWeb implements ClarityWebAbstract {
     int targetFpsMin = 2,
     double quality = 0.05,
   }) async {
-    const path = 'packages/clarity_web/web/js/clarity_web.js';
+    const path = 'assets/packages/clarity_web/web/js/clarity_web.js';
 
     // Check if script has already been loaded to avoid duplicate loading
     if (document.querySelector('script[src="$path"]') != null) return;

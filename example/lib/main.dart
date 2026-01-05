@@ -55,10 +55,10 @@ class _ClarityWebExampleHomeState extends State<ClarityWebExampleHome> {
     try {
       // Replace 'your-project-id' with your real Microsoft Clarity Project ID
       await clarityService.initClarityWeb(
-        'project-id', // ⚠️ IMPORTANT: Replace with your Project ID
-        targetFpsMax: 8, // Maximum FPS for capture
-        targetFpsMin: 3, // Minimum FPS for capture
-        quality: 0.1, // Image quality (0.0 - 1.0)
+        'tucuoh2mox', // ⚠️ IMPORTANT: Replace with your Project ID
+        targetFpsMax: 60, // Maximum FPS for capture
+        targetFpsMin: 30, // Minimum FPS for capture
+        quality: 1, // Image quality (0.0 - 1.0)
       );
 
       setState(() {
